@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class FourConnectApp
 {
     //We need to first create the basic visual pattern
-    public static String[][] createPattern()
+    public static String[][] createDiskPattern()
     {
         //Although the game is more like a table of 6
         //columns and 6 rows, we're going to have to make
@@ -13,30 +13,15 @@ public class FourConnectApp
         //there's an extra row to show the ___ at the bottom
         //and you have double the columns that show | | |
         //between each number
-        String[][] f = new String[7][15];
-
-        //Time to loop over each row from up to down
-        for (int i =0;i<f.length;i++)
-        {
-
-            //Time to loop over each column from left to right
-            for (int j =0;j<f[i].length;j++)
-            {
-                //Note how it is always the even column
-                //that has the border and the odd column
-                //between them that will be either empty or
-                //have a number
-                if (j% 2 == 0) f[i][j] ="|";
-                else f[i][j] = " ";
-
-                //Time to make our lowest row
-                if (i==6) f[i][j]= "-";
-            }
-
-        }
+        String[][] f = new String[7][5];
         return f;
     }
 
+    public String[][] combineField(String[][] f) {
+        String[][] combinedField = new String[7][11];
+
+        return combinedField;
+    }
     //Yes, we even need to make a new method for visually
     //printing our game, but at least it's not hard to do
     public static void printPattern(String[][] f)
@@ -53,18 +38,15 @@ public class FourConnectApp
 
     //Here's are basic move, making the lowest empty row
     //of a specific column have a Red
-    public static void dropRedPattern(String[][] f)
+    public static void dropRedPattern(String[][] f, int UserInput)
     {
         //We need to have the user tell us what column he wants
         //to drop a red into
         //Note: the user isn't supposed to know that we have 15 columns
         //starting at index 0 till 14 but just 6 nice ones
-        System.out.println("Drop a red disk at column (0–6): ");
-        Scanner scan = new Scanner (System.in);
-
         //Thankfully, there's a simple formula for converting a 1-2-3-4-5-6
         //user column number into a 1-3-5-7-9-11-13
-        int c = 2*scan.nextInt()+1;
+        int c = 2*UserInput+1;
 
         //Now that we know our column, we have to loop
         //over each row from the bottom to the top
@@ -86,11 +68,9 @@ public class FourConnectApp
     }
 
     //Same as the above step, just yellow
-    public static void dropYellowPattern(String[][] f)
+    public static void dropYellowPattern(String[][] f, int UserInput)
     {
-        System.out.println("Drop a yellow disk at column (0–6): ");
-        Scanner scan = new Scanner (System.in);
-        int c = 2*scan.nextInt()+1;
+        int c = 2*UserInput + 1;
         for (int i =5;i>=0;i--)
         {
             if (f[i][c] == " ")
@@ -226,19 +206,23 @@ public class FourConnectApp
     public static void main (String[] args)
     {
         //Time to make a pattern
-        String[][] f = createPattern();
+        String[][] f = createDiskPattern();
         //Time to make a condition for our game to keep on
         //playing
         boolean loop = true;
         //We need something to keep track of whose turn it is
         int count = 0;
         printPattern(f);
+        Scanner sc = new Scanner(System.in);
+        int ui;
         while(loop)
         {
+            System.out.println("Where do you want to place your Disk?");
+            ui = sc.nextInt();
             //Let's say that Red gets the first turn and thus
             //every other turn
-            if (count % 2 == 0) dropRedPattern(f);
-            else dropYellowPattern(f);
+            if (count % 2 == 0) dropRedPattern(f , ui);
+            else dropYellowPattern(f, ui);
             count++;//We need to keep track of the turns
             printPattern(f);
             //Let's say we want to check for a winner during every
