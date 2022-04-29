@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //This will be.. a huge code so we will have to make
 //lots of methods for each aspect of the game
-public class ConnectFour
+public class FourConnectApp
 {
     //We need to first create the basic visual pattern
     public static String[][] createPattern()

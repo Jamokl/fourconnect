@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e60785d0-779d-41df-a0ed-1f62aba5472c" name="Changes" comment="four connect">
+    <list default="true" id="e60785d0-779d-41df-a0ed-1f62aba5472c" name="Changes" comment="added puml files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +46,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\janni\Documents\fourconnect\src\resources" />
+      <recent name="C:\Users\janni\Documents\fourconnect\src" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="ConnectFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConnectFour" />
+    <configuration name="FourConnectApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FourConnectApp" />
       <module name="fourconnect" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -56,7 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConnectFour" />
+        <item itemvalue="Application.FourConnectApp" />
       </list>
     </recent_temporary>
   </component>
@@ -69,7 +75,12 @@
       <option name="presentableId" value="Default" />
       <updated>1650612810721</updated>
       <workItem from="1650612812059" duration="19000" />
-      <workItem from="1650612959952" duration="1114000" />
+      <workItem from="1650612959952" duration="1962000" />
+      <workItem from="1650615654949" duration="1435000" />
+      <workItem from="1650868247729" duration="5000" />
+      <workItem from="1650868383313" duration="25000" />
+      <workItem from="1650868760335" duration="26000" />
+      <workItem from="1651216199984" duration="929000" />
     </task>
     <task id="LOCAL-00001" summary="four connect">
       <created>1650613930682</created>
@@ -78,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650613930682</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added puml files">
+      <created>1650614389712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650614389712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="four connect" />
-    <option name="LAST_COMMIT_MESSAGE" value="four connect" />
+    <MESSAGE value="added puml files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added puml files" />
   </component>
 </project>
