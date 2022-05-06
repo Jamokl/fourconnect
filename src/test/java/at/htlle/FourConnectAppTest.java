@@ -1,5 +1,7 @@
 package at.htlle.fourconnect;
 
+import at.htlle.FourConnectModel;
+import at.htlle.FourConnectPresenter;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
