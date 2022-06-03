@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e60785d0-779d-41df-a0ed-1f62aba5472c" name="Changes" comment="new classes">
+    <list default="true" id="e60785d0-779d-41df-a0ed-1f62aba5472c" name="Changes" comment="changed things">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at/htlle/FourConnectAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/htlle/FourConnectAppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,9 @@
       <workItem from="1650868760335" duration="26000" />
       <workItem from="1651216199984" duration="2768000" />
       <workItem from="1651472847585" duration="14000" />
-      <workItem from="1651821048901" duration="4685000" />
+      <workItem from="1651821048901" duration="6321000" />
+      <workItem from="1652077730340" duration="10000" />
+      <workItem from="1654242369560" duration="4272000" />
     </task>
     <task id="LOCAL-00001" summary="four connect">
       <created>1650613930682</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651824074826</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changed things">
+      <created>1651826022387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651826022387</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +153,7 @@
     <MESSAGE value="App Name" />
     <MESSAGE value="Some changes" />
     <MESSAGE value="new classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="new classes" />
+    <MESSAGE value="changed things" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed things" />
   </component>
 </project>

@@ -2,6 +2,8 @@ import at.htlle.FourConnectModel;
 import at.htlle.FourConnectPresenter;
 import at.htlle.FourConnectView;
 
+// By Ficzko, Gölles and Fankhauser
+
 import java.util.Scanner;
 public class FourConnectApp
 {
@@ -27,9 +29,9 @@ public class FourConnectApp
             fcv.printPattern(fcm.combineField(f));;
             if (fcp.checkWinner(f) != null)
             {
-                if (fcp.checkWinner(fcm.combineField(f)) == "R")
+                if (fcp.checkWinner(f) == "R")
                     System.out.println("The red player won.");
-                else if (fcp.checkWinner(fcm.combineField(f))== "Y")
+                else if (fcp.checkWinner(f)== "Y")
                     System.out.println("The yello player won.");
                 loop = false;
             }
