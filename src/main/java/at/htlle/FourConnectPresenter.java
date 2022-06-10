@@ -21,6 +21,9 @@ public class FourConnectPresenter {
                     lastVert[ColumnVert] = f[RowVert][ColumnVert];
                     if (lastVert[ColumnVert].equalsIgnoreCase(f[RowVert][ColumnVert])) {
                         howManyVert[ColumnVert] += 1;
+                    } else if(!lastVert[ColumnVert].equalsIgnoreCase(f[RowVert][ColumnVert])) {
+                        lastVert[ColumnVert] = f[RowVert][ColumnVert-1];
+                        howManyVert[ColumnVert] = 0;
                     }
                     if (howManyVert[ColumnVert] == 4) {
                         return f[RowVert][ColumnVert];
@@ -36,6 +39,8 @@ public class FourConnectPresenter {
                     lastHor[RowHor] = f[RowHor][ColumnHor];
                     if (lastHor[RowHor].equalsIgnoreCase(f[RowHor][ColumnHor])) {
                         howManyVert[RowHor] += 1;
+                    } else if(!lastHor[RowHor].equalsIgnoreCase(f[RowHor][ColumnHor-1])) {
+                        howManyVert[RowHor] = 0;
                     }
                     if (howManyHor[RowHor] == 4) {
                         return f[RowHor][ColumnHor];
