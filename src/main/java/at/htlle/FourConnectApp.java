@@ -18,7 +18,8 @@ public class FourConnectApp
         String[][] f = fcm.createDiskPattern();
         boolean loop = true;
         int count = 0;
-        fcv.printPattern(fcm.combineField(f));
+        //fcv.printPattern(fcm.combineField(f));
+        fcv.printPattern(f);
         Scanner sc = new Scanner(System.in);
         int ui;
         while(loop)
@@ -28,14 +29,15 @@ public class FourConnectApp
             if (count % 2 == 0) fcp.dropRedPattern(f , ui);
             else fcp.dropYellowPattern(f, ui);
             count++;
-            fcv.printPattern(fcm.combineField(f));;
+           // fcv.printPattern(fcm.combineField(f));
+            fcv.printPattern(f);
             if (fcp.checkWinner(f) != null)
             {
                 if (fcp.checkWinner(f) == "R") {
                     System.out.println("The red player won.");
                     loop = false;
                 } else if (fcp.checkWinner(f)== "Y") {
-                    System.out.println("The yello player won.");
+                    System.out.println("The yellow player won.");
                     loop = false;
                 }
             }
