@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e60785d0-779d-41df-a0ed-1f62aba5472c" name="Changes" comment="Changed Check winner">
+    <list default="true" id="e60785d0-779d-41df-a0ed-1f62aba5472c" name="Changes" comment="Finished Check Winner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/FourConnectPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at/htlle/FourConnectAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/htlle/FourConnectAppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <workItem from="1652077730340" duration="10000" />
       <workItem from="1654242369560" duration="4317000" />
       <workItem from="1654765703338" duration="614000" />
-      <workItem from="1654844844023" duration="5249000" />
+      <workItem from="1654844844023" duration="5588000" />
     </task>
     <task id="LOCAL-00001" summary="four connect">
       <created>1650613930682</created>
@@ -154,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654247135289</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finished Check Winner">
+      <created>1654850272194</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654850272194</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +183,7 @@
     <MESSAGE value="new classes" />
     <MESSAGE value="changed things" />
     <MESSAGE value="Changed Check winner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Check winner" />
+    <MESSAGE value="Finished Check Winner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Check Winner" />
   </component>
 </project>

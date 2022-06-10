@@ -31,11 +31,13 @@ public class FourConnectApp
             fcv.printPattern(fcm.combineField(f));;
             if (fcp.checkWinner(f) != null)
             {
-                if (fcp.checkWinner(f) == "R")
+                if (fcp.checkWinner(f) == "R") {
                     System.out.println("The red player won.");
-                else if (fcp.checkWinner(f)== "Y")
+                    loop = false;
+                } else if (fcp.checkWinner(f)== "Y") {
                     System.out.println("The yello player won.");
-                loop = false;
+                    loop = false;
+                }
             }
         }
     }
