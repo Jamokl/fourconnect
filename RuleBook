@@ -1,3 +1,11 @@
+Rule: 
+
+Min # of player 2. Max # of player 2.
+
+Size of board: 7 cols and 5 rows
+
+Each player can resign the game.
+
 Rule: Game is won when 4 disks of one player are in a line
 
 Scenario: Simple horizontal line
