@@ -6,6 +6,12 @@ public class FourConnectModel {
 
     public static String[][] createDiskPattern() {
         field = new String[7][5];
+
+        for (int i = 0; i < field.length; i++) {
+            for(int u = 0; u < field[i].length; u++) {
+                field[i][u] = "_";
+            }
+        }
         return field;
     }
 
